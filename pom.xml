@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>fishve.vasyaev</groupId>
+    <groupId>fishev.vasyaev</groupId>
     <artifactId>WeatherUrfuBot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 

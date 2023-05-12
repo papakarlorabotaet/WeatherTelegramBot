@@ -1,4 +1,4 @@
-package org.fishve.vasyaev;
+package org.fishev.vasyaev;
 
 public class WeatherBotApplication {
     public static void main(String[] args) {
