@@ -1,6 +1,11 @@
-package org.fishev.vasyaev.service;
+package com.fishev.vasyaev.service;
 
+import com.fishev.vasyaev.config.Keyboard;
+import com.fishev.vasyaev.config.User;
+import com.fishev.vasyaev.enums.BotState;
 import lombok.extern.slf4j.Slf4j;
+import com.fishev.vasyaev.config.BotConfig;
+import com.fishev.vasyaev.exception.PlaceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -12,6 +17,7 @@ import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
+
 
 import java.io.IOException;
 import java.net.URISyntaxException;

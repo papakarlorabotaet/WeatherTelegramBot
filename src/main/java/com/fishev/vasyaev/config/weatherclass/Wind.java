@@ -1,4 +1,4 @@
-package org.fishev.vasyaev.config.weatherclass;
+package com.fishev.vasyaev.config.weatherclass;
 
 import lombok.Data;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package org.fishev.vasyaev.config;
+package com.fishev.vasyaev.config;
 
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;

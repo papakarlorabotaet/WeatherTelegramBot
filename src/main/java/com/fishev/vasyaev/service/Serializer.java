@@ -1,10 +1,11 @@
-package org.fishev.vasyaev.service;
+package com.fishev.vasyaev.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Import;
 import org.springframework.stereotype.Component;
+import com.fishev.vasyaev.config.User;
 
 import java.io.File;
 import java.io.IOException;

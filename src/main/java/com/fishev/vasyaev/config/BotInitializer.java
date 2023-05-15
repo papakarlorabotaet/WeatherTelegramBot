@@ -1,5 +1,6 @@
-package org.fishev.vasyaev.config;
+package com.fishev.vasyaev.config;
 
+import com.fishev.vasyaev.service.Bot;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.ContextRefreshedEvent;

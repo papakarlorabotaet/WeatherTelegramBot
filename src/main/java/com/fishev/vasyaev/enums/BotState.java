@@ -1,4 +1,4 @@
-package org.fishev.vasyaev.enums;
+package com.fishev.vasyaev.enums;
 
 public enum BotState {
     DEFAULT,

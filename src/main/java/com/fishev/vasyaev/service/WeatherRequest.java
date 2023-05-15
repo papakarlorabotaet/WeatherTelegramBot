@@ -1,9 +1,12 @@
-package org.fishev.vasyaev.service;
+package com.fishev.vasyaev.service;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fishev.vasyaev.config.CurrentWeather;
+import com.fishev.vasyaev.config.FutureWeather;
+import com.fishev.vasyaev.config.WeatherConfig;
+import com.fishev.vasyaev.exception.PlaceNotFoundException;
 import org.apache.http.client.utils.URIBuilder;
-import org.fishev.vasyaev.exception.PlaceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Import;
 import org.springframework.stereotype.Component;
