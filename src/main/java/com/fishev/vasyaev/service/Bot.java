@@ -157,13 +157,11 @@ public class Bot extends TelegramLongPollingBot {
                 users.get(chatId).setBotState(BotState.READ_SETTINGS);
                 break;
             case BOT_SUBSCRIBE:
-//                sendTextMessageToUser(chatId, "Вы успешно подписались \uD83D\uDE42");
                 subscriptionActivity(message, chatId);
                 users.get(chatId).setBotState(BotState.CHANGE_SETTINGS);
                 break;
 
             case BOT_UNSUBSCRIBE:
-//                sendTextMessageToUser(chatId, "Вы так же успешно отписались \uD83D\uDE42");
                 subscriptionDeactivity(message, chatId);
                 users.get(chatId).setBotState(BotState.CHANGE_SETTINGS);
                 break;
